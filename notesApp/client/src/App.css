@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Vollkorn", serif;
+}
+html,
+body,
+#root,
+.container {
+  height: 100%;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+}
+.content_wrapper {
+  /* width: 80%; */
+  padding: 0 24px;
+}

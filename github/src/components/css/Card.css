@@ -1,0 +1,33 @@
+.card {
+  /* max-width: 200px; */
+  padding: 20px;
+  flex: 0 0 33.33%;
+}
+
+.card > * {
+  margin: 5px 0;
+}
+.card img {
+  width: 100%;
+  min-width: 200px;
+}
+
+.card h4 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.card a {
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  color: white;
+  text-align: center;
+  background: grey;
+}
+
+@media (max-width: 560px) {
+  .card {
+    flex: 0 0 100%;
+  }
+}

@@ -1,0 +1,22 @@
+Backend
+[✔] Setup the dev server with mongoose and express
+[✔] Write a model for notes and notesApp
+[✔] Define routes for GET,POST,UPDATE,DELETE
+[✔] Write a controller for the entire routes
+[✔] Validate the controller using express validator
+[✔] Test all the api
+
+Frontend
+
+[✔] Set up react dev server
+[✔] Navbar Simple
+[✔] Create a noteCard
+[✔] Toggle between add and form
+[✔] Create a Note
+[✔] Finish add noteCard 
+[✔] Finish update/delete for note/card
+
+Extra
+Dark mode
+
+

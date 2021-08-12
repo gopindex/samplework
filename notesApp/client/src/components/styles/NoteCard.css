@@ -1,0 +1,53 @@
+.noteCard {
+  background-color: #ebecf0;
+  width: 282px;
+  border-radius: 3px;
+  padding: 10px;
+
+  height: fit-content;
+}
+.note_title {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  margin: 8px 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+    rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+}
+.note > div {
+  overflow-wrap: anywhere;
+  padding-right: 4px;
+  text-align: left;
+}
+.note:hover,
+.note_add:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.note_add {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  opacity: 0.6;
+}
+
+.note_cards {
+  max-height: 400px;
+  overflow-y: auto;
+}
+.note_cards::-webkit-scrollbar {
+  height: 10px;
+  width: 4px;
+  background-color: #f5f5f5;
+}
+.note_cards::-webkit-scrollbar-thumb {
+  background-color: #026aa7;
+}

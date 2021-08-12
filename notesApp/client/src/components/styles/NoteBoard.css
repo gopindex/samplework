@@ -1,0 +1,79 @@
+.notesBg {
+  background-color: rgba(0, 121, 191, 0.7);
+  height: calc(100% - 50px);
+}
+.notesContainer {
+  display: flex;
+  height: calc(100% - 10px);
+  overflow-x: auto;
+}
+
+.notesContainer::-webkit-scrollbar {
+  height: 10px;
+  width: 8px;
+  background-color: #f5f5f5;
+}
+.notesContainer::-webkit-scrollbar-thumb {
+  background-color: #026aa7;
+}
+
+.notesContainer > div {
+  flex-shrink: 0;
+  margin: 15px;
+}
+.addTopic {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  height: fit-content;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: background-color 200ms linear;
+}
+
+.addTopic:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.toggleForm textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+  resize: none;
+  font-size: 14px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+    rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+  /* background-color: #f5f5f5; */
+  font-family: "Montserrat", sans-serif;
+  padding: 5px;
+}
+
+.toggleControls {
+  display: flex;
+  align-items: center;
+}
+.toggleControls > div {
+  margin-right: 10px;
+}
+.btn {
+  padding: 8px;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.bluebtn {
+  background-color: #026aa7;
+  color: white;
+  font-weight: 700;
+}
+.icon {
+  font-size: 24px;
+  color: #f5f5f5;
+  cursor: pointer;
+}
+.toggleIcon {
+  display: flex;
+  align-items: center;
+}

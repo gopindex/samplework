@@ -1,0 +1,26 @@
+form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.searchBar .search_input {
+  padding: 8px;
+  width: 300px;
+  border: 0;
+  outline: 0;
+  background: #eeeeee;
+}
+
+.loadingImage {
+  display: block;
+  margin: 0 auto;
+}
+.input_error {
+  border: 2px solid red !important;
+  /* background-color: red !important; */
+}
+@media screen and (max-width: 768px) {
+  .searchBar .search_input {
+    width: 200px;
+  }
+}
